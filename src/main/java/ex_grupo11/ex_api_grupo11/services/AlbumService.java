@@ -10,6 +10,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import ex_grupo11.ex_api_grupo11.models.Album;
 import ex_grupo11.ex_api_grupo11.repositories.AlbumRepository;
+import ex_grupo11.ex_api_grupo11.responses.AlbumRequest;
 import ex_grupo11.ex_api_grupo11.responses.AlbumResponse;
 
 @Service
@@ -52,6 +53,25 @@ public class AlbumService {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "El álbum no existe con el ID: " + idAlbum);
         }
         albumRepository.deleteById(idAlbum);
+    }
+
+    public AlbumResponse createAlbum(AlbumRequest albumRequest) {
+        if (albumRequest.getNombreAlbum() == null || albumRequest.getNombreAlbum().isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El nombre del álbum no puede ser nulo o vacío.");
+        }
+
+        Album album = new Album();
+        album.setNombreAlbum(albumRequest.getNombreAlbum());
+        album.setDescripcion(albumRequest.getDescripcion());
+        album.setImagen(albumRequest.getImagen());
+
+        Album savedAlbum = albumRepository.save(album);
+
+        return new AlbumResponse(
+                savedAlbum.getIdAlbum(),
+                savedAlbum.getNombreAlbum(),
+                savedAlbum.getDescripcion(),
+                savedAlbum.getImagen());
     }
 
 }

@@ -9,12 +9,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import ex_grupo11.ex_api_grupo11.responses.AlbumRequest;
 import ex_grupo11.ex_api_grupo11.responses.AlbumResponse;
 import ex_grupo11.ex_api_grupo11.services.AlbumService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/album")
@@ -49,6 +52,18 @@ public class AlbumController {
             throw e; // Lanza el error si el servicio ya maneja la excepción
         } catch (Exception e) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error interno al eliminar el álbum.");
+        }
+    }
+
+    @PostMapping
+    public ResponseEntity<AlbumResponse> createAlbum(@RequestBody AlbumRequest albumRequest) {
+        try {
+            AlbumResponse albumResponse = albumService.createAlbum(albumRequest);
+            return new ResponseEntity<>(albumResponse, HttpStatus.CREATED);
+        } catch (ResponseStatusException e) {
+            throw e; // Lanza el error si ya está manejado
+        } catch (Exception e) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error al crear el álbum.");
         }
     }
 

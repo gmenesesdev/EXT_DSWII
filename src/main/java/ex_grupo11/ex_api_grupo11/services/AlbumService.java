@@ -74,4 +74,30 @@ public class AlbumService {
                 savedAlbum.getImagen());
     }
 
+    public AlbumResponse updateAlbum(Long idAlbum, AlbumRequest albumRequest) {
+        if (idAlbum == null) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El ID del álbum no puede ser nulo.");
+        }
+        if (albumRequest.getNombreAlbum() == null || albumRequest.getNombreAlbum().isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El nombre del álbum no puede ser nulo o vacío.");
+        }
+
+        Album album = albumRepository.findById(idAlbum)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
+                        "Álbum no encontrado con el ID: " + idAlbum));
+
+        // Actualizar los campos del álbum
+        album.setNombreAlbum(albumRequest.getNombreAlbum());
+        album.setDescripcion(albumRequest.getDescripcion());
+        album.setImagen(albumRequest.getImagen());
+
+        Album updatedAlbum = albumRepository.save(album);
+
+        return new AlbumResponse(
+                updatedAlbum.getIdAlbum(),
+                updatedAlbum.getNombreAlbum(),
+                updatedAlbum.getDescripcion(),
+                updatedAlbum.getImagen());
+    }
+
 }

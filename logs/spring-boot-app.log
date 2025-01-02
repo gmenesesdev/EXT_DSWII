@@ -2596,3 +2596,326 @@ java.lang.RuntimeException: Album no encontrado
 2025-01-02T02:25:46.884-03:00  INFO 15684 --- [ex_api_grupo11] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-01-02T02:25:46.887-03:00  INFO 15684 --- [ex_api_grupo11] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2025-01-02T02:25:48.286-03:00  WARN 15684 --- [ex_api_grupo11] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El nombre del álbum no puede ser nulo o vacío."]
+2025-01-02T02:30:28.559-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T02:30:28.578-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T02:30:28.818-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02T02:30:28.820-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02T02:30:32.382-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T02:30:32.581-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161 ms. Found 6 JPA repository interfaces.
+2025-01-02T02:30:35.182-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T02:30:35.339-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T02:30:35.354-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T02:30:35.663-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T02:30:35.674-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6846 ms
+2025-01-02T02:30:37.935-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T02:30:38.150-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-02T02:30:38.306-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T02:30:39.061-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T02:30:39.144-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-02T02:30:39.533-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@644ad604
+2025-01-02T02:30:39.538-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-02T02:30:39.656-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T02:30:39.668-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T02:30:39.768-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T02:30:45.869-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T02:30:46.756-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T02:30:48.480-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T02:30:49.096-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T02:30:51.347-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T02:30:51.548-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T02:30:51.630-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 24.326 seconds (process running for 26.461)
+2025-01-02T02:31:15.746-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02T02:31:15.748-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-02T02:31:15.751-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-01-02T02:31:17.033-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "Álbum no encontrado con el ID: 999"]
+2025-01-02T02:31:46.126-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El nombre del álbum no puede ser nulo o vacío."]
+2025-01-02T03:13:02.106-03:00  WARN 18880 --- [ex_api_grupo11] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m51s953ms988µs200ns).
+2025-01-02T03:13:36.575-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-02T03:13:36.585-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:13:36.612-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:13:36.624-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:13:36.635-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-02T03:13:36.671-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-02T03:13:36.871-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:13:36.873-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:13:37.694-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:13:37.843-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:13:38.392-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:13:38.416-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:13:38.426-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:13:38.534-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:13:38.535-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2025-01-02T03:13:38.804-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:13:39.959-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:13:39.995-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:13:40.036-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-02T03:13:40.051-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f9337ef
+2025-01-02T03:13:40.058-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-02T03:13:40.107-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:13:40.128-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:13:40.130-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:13:40.568-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:13:40.931-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:13:41.179-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:13:41.383-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:13:41.972-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:13:41.995-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:13:42.046-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 5.26 seconds (process running for 2596.882)
+2025-01-02T03:13:42.057-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:13:47.627-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T03:13:47.685-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:13:47.725-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:13:47.734-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:13:47.737-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-01-02T03:13:47.746-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-02T03:13:48.094-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:13:48.096-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:13:48.861-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:13:48.950-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:13:49.934-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:13:49.974-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:13:49.979-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:13:50.100-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:13:50.103-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2025-01-02T03:13:50.358-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:13:50.444-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:13:50.543-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:13:50.552-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-01-02T03:13:50.571-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d2da00
+2025-01-02T03:13:50.572-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-01-02T03:13:50.576-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:13:50.581-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:13:50.584-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:13:51.677-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:13:52.192-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:13:52.532-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:13:52.741-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:13:53.145-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:13:53.161-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:13:53.174-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 5.306 seconds (process running for 2608.01)
+2025-01-02T03:13:53.193-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:14:34.604-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-02T03:14:34.655-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:14:34.737-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:14:34.769-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:14:34.843-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-01-02T03:14:34.992-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-01-02T03:14:36.309-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:14:36.311-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:14:37.556-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:14:37.625-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:14:38.052-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:14:38.057-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:14:38.059-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:14:38.534-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:14:38.627-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2308 ms
+2025-01-02T03:14:38.848-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:14:38.856-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:14:39.589-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:14:39.592-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-01-02T03:14:39.602-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fd4c95c
+2025-01-02T03:14:39.604-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-01-02T03:14:39.606-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:14:39.609-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:14:39.610-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:14:41.460-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:14:41.773-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:14:41.968-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:14:42.208-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:14:42.688-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:14:42.789-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:14:42.802-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 7.452 seconds (process running for 2657.638)
+2025-01-02T03:14:42.882-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:21:55.504-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T03:21:55.510-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:21:55.537-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:21:55.545-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:21:55.549-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-01-02T03:21:55.690-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-01-02T03:21:56.052-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:21:56.060-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:21:56.717-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:21:56.769-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:21:57.133-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:21:57.153-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:21:57.155-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:21:57.234-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:21:57.236-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
+2025-01-02T03:21:57.318-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:21:57.340-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:21:57.381-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:21:57.400-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-01-02T03:21:57.441-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bb8683e
+2025-01-02T03:21:57.443-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-01-02T03:21:57.445-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:21:57.446-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:21:57.448-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:21:57.918-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:21:58.182-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:21:58.381-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:21:58.544-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:21:58.801-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:21:58.820-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:21:58.830-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 2.985 seconds (process running for 3093.666)
+2025-01-02T03:21:58.835-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:22:31.180-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-02T03:22:31.243-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:22:31.279-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:22:31.335-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:22:31.339-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-01-02T03:22:31.429-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-01-02T03:22:31.702-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:22:31.704-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:22:32.512-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:22:32.615-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:22:32.984-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:22:32.988-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:22:32.994-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:22:33.089-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:22:33.104-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2025-01-02T03:22:33.270-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:22:33.294-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:22:33.452-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:22:33.455-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-01-02T03:22:33.465-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a2af48
+2025-01-02T03:22:33.466-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-01-02T03:22:33.468-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:22:33.470-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:22:33.471-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:22:34.564-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:22:35.194-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:22:35.396-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:22:35.733-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:22:36.179-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:22:36.220-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:22:36.229-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 4.645 seconds (process running for 3131.065)
+2025-01-02T03:22:36.232-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:24:41.789-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T03:24:41.793-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:24:41.822-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:24:41.828-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:24:41.832-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-01-02T03:24:41.842-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-01-02T03:24:42.062-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:24:42.064-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:24:43.061-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:24:43.144-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:24:43.523-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:24:43.526-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:24:43.533-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:24:43.622-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:24:43.624-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1553 ms
+2025-01-02T03:24:44.499-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:24:44.505-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:24:44.538-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:24:44.542-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-01-02T03:24:44.551-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4724e16e
+2025-01-02T03:24:44.552-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-01-02T03:24:44.555-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:24:44.557-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:24:44.559-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:24:45.063-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:24:45.449-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:24:45.677-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:24:45.881-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:24:46.121-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:24:46.142-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:24:46.147-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 4.16 seconds (process running for 3260.983)
+2025-01-02T03:24:46.157-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:25:27.354-03:00  INFO 18880 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T03:25:27.478-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T03:25:27.538-03:00  INFO 18880 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T03:25:27.653-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:25:27.727-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-01-02T03:25:27.791-03:00  INFO 18880 --- [ex_api_grupo11] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-01-02T03:25:28.391-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18880 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T03:25:28.429-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T03:25:29.426-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T03:25:29.743-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 283 ms. Found 6 JPA repository interfaces.
+2025-01-02T03:25:30.184-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T03:25:30.206-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T03:25:30.218-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T03:25:30.292-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T03:25:30.294-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1806 ms
+2025-01-02T03:25:30.521-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T03:25:30.556-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T03:25:30.579-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T03:25:30.587-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-01-02T03:25:30.596-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c3397bd
+2025-01-02T03:25:30.597-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-01-02T03:25:30.601-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T03:25:30.602-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T03:25:30.603-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T03:25:32.209-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T03:25:32.490-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T03:25:32.682-03:00  WARN 18880 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T03:25:32.861-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T03:25:33.403-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T03:25:33.441-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T03:25:33.448-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 5.342 seconds (process running for 3308.283)
+2025-01-02T03:25:33.452-03:00  INFO 18880 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T03:27:31.657-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02T03:27:31.766-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-02T03:27:31.869-03:00  INFO 18880 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2025-01-02T03:28:26.700-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "Lámina no encontrada con el ID: 999"]
+2025-01-02T03:29:19.759-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "La lámina no existe con el ID: 999"]
+2025-01-02T03:29:30.802-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "La lámina no existe con el ID: 6"]
+2025-01-02T03:30:52.076-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El nombre de la lámina no puede ser nulo o vacío."]
+2025-01-02T03:32:20.377-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El nombre de la lámina no puede ser nulo o vacío."]
+2025-01-02T03:32:39.473-03:00  WARN 18880 --- [ex_api_grupo11] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "Lámina no encontrada con el ID: 7"]

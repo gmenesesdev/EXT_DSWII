@@ -22,7 +22,9 @@ public class WebSecurityConfig {
         http.authorizeHttpRequests(request -> request
                 // Permitir acceso público solo a operaciones de lectura específicas
                 .requestMatchers("/album").authenticated()
-                .requestMatchers("/album/{idAlbum}").authenticated())
+                .requestMatchers("/album/{idAlbum}").authenticated()
+                .requestMatchers("/lamina").authenticated()
+                .requestMatchers("/lamina/{idLamina}").authenticated())
                 .httpBasic(Customizer.withDefaults()) // Usar autenticación básica
                 .csrf(csrf -> csrf.disable()); // Deshabilitar CSRF para facilitar pruebas
         return http.build();

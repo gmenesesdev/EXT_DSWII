@@ -21,7 +21,8 @@ public class WebSecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(request -> request
                 // Permitir acceso público solo a operaciones de lectura específicas
-                .requestMatchers("/album").authenticated())
+                .requestMatchers("/album").authenticated()
+                .requestMatchers("/album/{idAlbum}").authenticated())
                 .httpBasic(Customizer.withDefaults()) // Usar autenticación básica
                 .csrf(csrf -> csrf.disable()); // Deshabilitar CSRF para facilitar pruebas
         return http.build();

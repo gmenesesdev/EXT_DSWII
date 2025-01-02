@@ -1,24 +1,24 @@
-2025-01-01T22:37:29.617-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18648 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
-2025-01-01T22:37:29.623-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
-2025-01-01T22:37:29.778-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-01T22:37:29.803-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-01T22:37:32.668-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-01T22:37:32.739-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 0 JPA repository interfaces.
-2025-01-01T22:37:34.531-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-01T22:37:34.606-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-01T22:37:34.608-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-01T22:37:34.804-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-01T22:37:34.806-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4998 ms
-2025-01-01T22:37:35.837-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-01T22:37:36.139-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-01T22:37:36.230-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-01T22:37:36.945-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-01T22:37:37.046-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-01T22:37:37.395-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61ed6d54
-2025-01-01T22:37:37.395-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-01T22:37:37.506-03:00  WARN 18648 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-01-01T22:37:37.519-03:00  WARN 18648 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-01T22:37:37.581-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-02T00:47:31.787-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 13484 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T00:47:31.817-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T00:47:32.023-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02T00:47:32.191-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02T00:47:34.887-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T00:47:35.105-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 6 JPA repository interfaces.
+2025-01-02T00:47:37.419-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T00:47:37.502-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T00:47:37.505-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T00:47:37.680-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T00:47:37.682-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5486 ms
+2025-01-02T00:47:38.172-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T00:47:38.346-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-02T00:47:38.458-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T00:47:39.214-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T00:47:39.344-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-02T00:47:39.748-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b7c6929
+2025-01-02T00:47:39.755-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-02T00:47:39.879-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T00:47:39.892-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T00:47:39.974-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -26,16 +26,768 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-01T22:37:42.696-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-01T22:37:47.199-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-01T22:37:47.531-03:00  WARN 18648 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-01T22:37:48.678-03:00  WARN 18648 --- [ex_api_grupo11] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-01-02T00:47:42.520-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T00:47:45.854-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table album modify column id_album bigint not null auto_increment" via JDBC [Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0' of table 'ext_album_laminas.usuario_album']
 
-Using generated security password: d78f0fb5-b002-4d7d-92c1-d612316302a3
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table album modify column id_album bigint not null auto_increment" via JDBC [Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0' of table 'ext_album_laminas.usuario_album']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0' of table 'ext_album_laminas.usuario_album'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:45.973-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table lamina modify column id_lamina bigint not null auto_increment" via JDBC [Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r' of table 'ext_album_laminas.usuario_album_lamina']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table lamina modify column id_lamina bigint not null auto_increment" via JDBC [Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r' of table 'ext_album_laminas.usuario_album_lamina']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r' of table 'ext_album_laminas.usuario_album_lamina'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.100-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table lamina modify column id_tipo bigint not null" via JDBC [Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table lamina modify column id_tipo bigint not null" via JDBC [Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.248-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table tipo_carta modify column id_tipo bigint not null auto_increment" via JDBC [Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on' of table 'ext_album_laminas.lamina']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table tipo_carta modify column id_tipo bigint not null auto_increment" via JDBC [Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on' of table 'ext_album_laminas.lamina']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_tipo': used in a foreign key constraint 'FKnhf9teyoh5xx6uo4dro6039on' of table 'ext_album_laminas.lamina'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.379-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario modify column id_usuario bigint not null auto_increment" via JDBC [Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d' of table 'ext_album_laminas.usuario_album']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario modify column id_usuario bigint not null auto_increment" via JDBC [Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d' of table 'ext_album_laminas.usuario_album']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d' of table 'ext_album_laminas.usuario_album'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.577-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario_album modify column id_usuario_album bigint not null auto_increment" via JDBC [Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7' of table 'ext_album_laminas.usuario_album_lamina']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario_album modify column id_usuario_album bigint not null auto_increment" via JDBC [Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7' of table 'ext_album_laminas.usuario_album_lamina']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7' of table 'ext_album_laminas.usuario_album_lamina'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.737-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario_album modify column id_album bigint not null" via JDBC [Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario_album modify column id_album bigint not null" via JDBC [Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_album': used in a foreign key constraint 'FKkluh9okplld706xuu99mk26i0'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:46.814-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario_album modify column id_usuario bigint not null" via JDBC [Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario_album modify column id_usuario bigint not null" via JDBC [Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_usuario': used in a foreign key constraint 'FKl9p6qwlq5ebarhkw32hfy359d'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:47.200-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario_album_lamina modify column id_lamina bigint not null" via JDBC [Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario_album_lamina modify column id_lamina bigint not null" via JDBC [Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_lamina': used in a foreign key constraint 'FK3x9cnybr2mqcx2dt17t4dl5r'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:47.277-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table usuario_album_lamina modify column id_usuario_album bigint not null" via JDBC [Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7']
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table usuario_album_lamina modify column id_usuario_album bigint not null" via JDBC [Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at ex_grupo11.ex_api_grupo11.ExApiGrupo11Application.main(ExApiGrupo11Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+Caused by: java.sql.SQLException: Cannot change column 'id_usuario_album': used in a foreign key constraint 'FK6xnysiygxtsaiiemued9y1s7'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.4.Final.jar:6.6.4.Final]
+	... 40 common frames omitted
+
+2025-01-02T00:47:47.478-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:47:48.989-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T00:47:50.054-03:00  WARN 13484 --- [ex_api_grupo11] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 854e6a0b-45df-49e7-be56-461ec10dbf52
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-01-01T22:37:48.765-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-01-01T22:37:49.262-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-01-01T22:37:49.394-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-01T22:37:49.463-03:00  INFO 18648 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 21.061 seconds (process running for 22.865)
+2025-01-02T00:47:50.110-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-01-02T00:47:50.754-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T00:47:50.928-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T00:47:51.024-03:00  INFO 13484 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 20.552 seconds (process running for 23.03)
+2025-01-02T00:49:16.421-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18492 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T00:49:16.476-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T00:49:16.870-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02T00:49:16.892-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02T00:49:22.336-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T00:49:22.894-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 446 ms. Found 6 JPA repository interfaces.
+2025-01-02T00:49:30.375-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T00:49:30.917-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T00:49:31.105-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T00:49:32.071-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T00:49:32.193-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15116 ms
+2025-01-02T00:49:39.301-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T00:49:39.703-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-02T00:49:40.011-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T00:49:42.920-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T00:49:43.141-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-02T00:49:43.928-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@348c3a12
+2025-01-02T00:49:43.954-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-02T00:49:44.217-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T00:49:44.293-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T00:49:44.475-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T00:49:50.432-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T00:49:52.577-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:49:53.964-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T00:49:55.500-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a8ff560d-5696-4d82-8b80-0d9e202c558d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-02T00:49:55.564-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-01-02T00:49:56.001-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T00:49:56.178-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T00:49:56.217-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 41.866 seconds (process running for 44.949)
+2025-01-02T00:50:45.971-03:00  INFO 18492 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-02T00:50:46.023-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T00:50:46.080-03:00  INFO 18492 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T00:50:46.092-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:50:46.134-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-02T00:50:46.167-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-02T00:50:46.986-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18492 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T00:50:46.991-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T00:50:48.250-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T00:50:48.622-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 6 JPA repository interfaces.
+2025-01-02T00:50:49.436-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T00:50:49.453-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T00:50:49.624-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T00:50:49.837-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T00:50:49.888-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2872 ms
+2025-01-02T00:50:51.353-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T00:50:51.380-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T00:50:51.414-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T00:50:51.420-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-02T00:50:51.436-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49bb3ceb
+2025-01-02T00:50:51.438-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-02T00:50:51.441-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T00:50:51.447-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T00:50:51.450-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T00:50:52.474-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T00:50:52.990-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:50:53.561-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T00:50:54.241-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f9d037ab-d032-4686-95fa-7af9b484c800
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-02T00:50:54.256-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-01-02T00:50:54.457-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T00:50:54.497-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T00:50:54.557-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 8.053 seconds (process running for 103.289)
+2025-01-02T00:50:54.587-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T00:52:45.266-03:00  INFO 18492 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T00:52:45.299-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T00:52:45.442-03:00  INFO 18492 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T00:52:45.451-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:52:45.455-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-01-02T00:52:45.491-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-02T00:52:45.792-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18492 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T00:52:45.793-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T00:52:46.567-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T00:52:46.626-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2025-01-02T00:52:47.073-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T00:52:47.075-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T00:52:47.077-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T00:52:47.188-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T00:52:47.196-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2025-01-02T00:52:47.350-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T00:52:47.372-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T00:52:47.445-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T00:52:47.448-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-01-02T00:52:47.470-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5386266
+2025-01-02T00:52:47.471-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-01-02T00:52:47.474-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T00:52:47.476-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T00:52:47.477-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T00:52:48.179-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T00:52:48.359-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:52:48.572-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T00:52:48.796-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T00:52:49.260-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T00:52:49.286-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T00:52:49.307-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 3.658 seconds (process running for 218.039)
+2025-01-02T00:52:49.327-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-01-02T00:53:03.792-03:00  INFO 18492 --- [ex_api_grupo11] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-02T00:53:03.962-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T00:53:04.050-03:00  INFO 18492 --- [ex_api_grupo11] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T00:53:04.098-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:53:04.112-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-01-02T00:53:04.145-03:00  INFO 18492 --- [ex_api_grupo11] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-01-02T00:53:04.570-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Starting ExApiGrupo11Application using Java 21.0.5 with PID 18492 (D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11\target\classes started by Gonzalo in D:\CIISA\Trimestre 03\Desarrollo de Software Web II\ex_api_grupo11)
+2025-01-02T00:53:04.577-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T00:53:05.565-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02T00:53:05.658-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 6 JPA repository interfaces.
+2025-01-02T00:53:06.001-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T00:53:06.005-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T00:53:06.006-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T00:53:06.074-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T00:53:06.074-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2025-01-02T00:53:06.162-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02T00:53:06.182-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-02T00:53:06.211-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02T00:53:06.215-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-01-02T00:53:06.226-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dec8ec5
+2025-01-02T00:53:06.227-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-01-02T00:53:06.229-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-02T00:53:06.231-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02T00:53:06.233-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-02T00:53:06.639-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02T00:53:06.835-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02T00:53:06.999-03:00  WARN 18492 --- [ex_api_grupo11] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02T00:53:07.186-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-02T00:53:07.508-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-02T00:53:07.534-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T00:53:07.543-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 3.13 seconds (process running for 236.275)
+2025-01-02T00:53:07.560-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

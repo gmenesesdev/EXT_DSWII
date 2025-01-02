@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 public class Lamina {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idLamina;
+    private Long idLamina;
 
     @Column(nullable = false, length = 100)
     private String nombreLamina;

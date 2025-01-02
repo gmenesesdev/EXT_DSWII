@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 public class Album {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idAlbum;
+    private Long idAlbum;
 
     @Column(nullable = false, length = 100)
     private String nombreAlbum;

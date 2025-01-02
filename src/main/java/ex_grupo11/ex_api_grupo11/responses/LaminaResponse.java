@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class LaminaResponse {
-    private Integer idLamina;
+    private Long idLamina;
     private String nombreLamina;
     private TipoCartaResponse tipoCarta;
     private String imagen;

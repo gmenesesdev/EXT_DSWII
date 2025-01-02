@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 public class TipoCarta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idTipo;
+    private Long idTipo;
 
     @Column(nullable = false, length = 50, unique = true)
     private String nombreTipo;

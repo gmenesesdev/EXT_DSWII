@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class UsuarioAlbumResponse {
-    private Integer idUsuarioAlbum;
+    private Long idUsuarioAlbum;
     private UsuarioResponse usuario;
     private AlbumResponse album;
 }

@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class TipoCartaResponse {
-    private Integer idTipo;
+    private Long idTipo;
     private String nombreTipo;
 }

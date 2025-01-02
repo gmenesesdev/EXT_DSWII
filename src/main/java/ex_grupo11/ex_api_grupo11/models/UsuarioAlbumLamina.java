@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class UsuarioAlbumLamina {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idUsuarioAlbumLamina;
+    private Long idUsuarioAlbumLamina;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_usuario_album", nullable = false)

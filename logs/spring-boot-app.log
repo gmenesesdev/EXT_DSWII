@@ -791,3 +791,6 @@ Unconditional classes:
 2025-01-02T00:53:07.534-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-02T00:53:07.543-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 3.13 seconds (process running for 236.275)
 2025-01-02T00:53:07.560-03:00  INFO 18492 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T00:54:35.361-03:00  INFO 18492 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02T00:54:35.378-03:00  INFO 18492 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-02T00:54:35.388-03:00  INFO 18492 --- [ex_api_grupo11] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms

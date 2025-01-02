@@ -2432,3 +2432,7 @@ java.lang.RuntimeException: Album no encontrado
 2025-01-02T02:15:55.375-03:00  INFO 15684 --- [ex_api_grupo11] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-01-02T02:15:55.383-03:00  INFO 15684 --- [ex_api_grupo11] [restartedMain] e.e.ExApiGrupo11Application              : Started ExApiGrupo11Application in 4.274 seconds (process running for 353.698)
 2025-01-02T02:15:55.412-03:00  INFO 15684 --- [ex_api_grupo11] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-02T02:16:33.768-03:00  INFO 15684 --- [ex_api_grupo11] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02T02:16:33.769-03:00  INFO 15684 --- [ex_api_grupo11] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-02T02:16:33.772-03:00  INFO 15684 --- [ex_api_grupo11] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-01-02T02:16:36.273-03:00  WARN 15684 --- [ex_api_grupo11] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "El álbum no existe con el ID: 6"]

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -51,5 +52,11 @@ public class UsuarioAlbumLaminaController {
     public ResponseEntity<UsuarioAlbumLaminaResponse> updateLaminaCantidad(@PathVariable Long id,
             @RequestParam int cantidad) {
         return ResponseEntity.ok(usuarioAlbumLaminaService.updateLaminaCantidad(id, cantidad));
+    }
+
+    @DeleteMapping("/{idUsuarioAlbumLamina}")
+    public ResponseEntity<String> deleteUsuarioAlbumLamina(@PathVariable("idUsuarioAlbumLamina") Long idUsuarioAlbumLamina) {
+        usuarioAlbumLaminaService.deleteUsuarioAlbumLamina(idUsuarioAlbumLamina);
+        return ResponseEntity.ok("Registro de Usuario-Álbum-Lámina eliminado correctamente con ID: " + idUsuarioAlbumLamina);
     }
 }

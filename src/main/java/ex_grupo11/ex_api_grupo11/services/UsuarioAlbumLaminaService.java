@@ -141,6 +141,17 @@ public class UsuarioAlbumLaminaService {
         return mapToResponse(updatedEntity);
     }
 
+    public void deleteUsuarioAlbumLamina(Long idUsuarioAlbumLamina) {
+        if (idUsuarioAlbumLamina == null) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El ID de la relación Usuario-Álbum-Lámina no puede ser nulo.");
+        }
+        boolean exists = usuarioAlbumLaminaRepository.existsById(idUsuarioAlbumLamina);
+        if (!exists) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "La relación Usuario-Álbum-Lámina no existe con el ID: " + idUsuarioAlbumLamina);
+        }
+        usuarioAlbumLaminaRepository.deleteById(idUsuarioAlbumLamina);
+    }
+
     private UsuarioAlbumLaminaResponse mapToResponse(UsuarioAlbumLamina entity) {
         UsuarioResponse usuarioResponse = new UsuarioResponse(
                 entity.getUsuarioAlbum().getUsuario().getIdUsuario(),

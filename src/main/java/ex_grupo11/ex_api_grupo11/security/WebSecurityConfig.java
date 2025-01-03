@@ -24,7 +24,11 @@ public class WebSecurityConfig {
                 .requestMatchers("/album").authenticated()
                 .requestMatchers("/album/{idAlbum}").authenticated()
                 .requestMatchers("/lamina").authenticated()
-                .requestMatchers("/lamina/{idLamina}").authenticated())
+                .requestMatchers("/lamina/{idLamina}").authenticated()
+                .requestMatchers("/usuario-album-lamina").authenticated()
+                .requestMatchers("/usuario-album-lamina/{id}").authenticated()
+                .requestMatchers("/usuario-album-lamina/{id}/cantidad").authenticated()
+                .requestMatchers("/usuario-album-lamina/bulk").authenticated())
                 .httpBasic(Customizer.withDefaults()) // Usar autenticación básica
                 .csrf(csrf -> csrf.disable()); // Deshabilitar CSRF para facilitar pruebas
         return http.build();

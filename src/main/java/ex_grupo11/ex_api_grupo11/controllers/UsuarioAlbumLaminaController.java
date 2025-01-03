@@ -44,7 +44,6 @@ public class UsuarioAlbumLaminaController {
     @PostMapping("/bulk")
     public ResponseEntity<List<UsuarioAlbumLaminaResponse>> createMultipleLaminas(
             @RequestBody MultipleLaminasRequest request) {
-        System.out.println("Cuerpo recibido: " + request); // Depuración
         return ResponseEntity.status(201).body(usuarioAlbumLaminaService.createMultipleLaminas(request));
     }
 

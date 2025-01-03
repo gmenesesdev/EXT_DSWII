@@ -77,10 +77,6 @@ public class UsuarioAlbumLaminaService {
     }
 
     public List<UsuarioAlbumLaminaResponse> createMultipleLaminas(MultipleLaminasRequest request) {
-        System.out.println("Cuerpo completo: " + request);
-        request.getLaminas().forEach(laminaRequest -> {
-            System.out.println("Lamina Request: " + laminaRequest);
-        });
         if (request == null || request.getLaminas() == null) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El cuerpo de la solicitud no puede ser nulo.");
         }
@@ -90,9 +86,6 @@ public class UsuarioAlbumLaminaService {
                 throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
                         "Las IDs de UsuarioAlbum y Lamina no pueden ser nulas.");
             }
-
-            System.out.println("Procesando UsuarioAlbum ID: " + laminaRequest.getIdUsuarioAlbum());
-            System.out.println("Procesando Lamina ID: " + laminaRequest.getIdLamina());
 
             UsuarioAlbum usuarioAlbum = usuarioAlbumRepository.findById(laminaRequest.getIdUsuarioAlbum())
                     .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
